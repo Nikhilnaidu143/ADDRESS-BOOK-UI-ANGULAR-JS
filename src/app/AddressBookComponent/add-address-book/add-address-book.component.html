@@ -62,7 +62,8 @@
 
     <div class="button-parent">
         <span class="button-add">
-            <button type="submit" (click)="save()" class="button add-button">Add</button>
+            <button *ngIf="this.id != null" type="submit" (click)="save()" class="button add-button">Update</button>
+            <button *ngIf="this.id == null" type="submit" (click)="save()" class="button add-button">Add</button>
         </span>
         <span class="button-reset">
             <button type="reset" class="button reset-button">Reset</button>

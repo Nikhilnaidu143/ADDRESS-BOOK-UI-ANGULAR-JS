@@ -37,7 +37,7 @@ export class AddAddressBookComponent implements OnInit {
 
   /** Saving for update and add new contact. */
   save() {
-    this.id = this.activatedRoute.snapshot.params['id'];
+    // this.id = this.activatedRoute.snapshot.params['id'];
     if (this.id == undefined) {
       console.log("address book data :- ", this.addressBook);
       this.service.postCall(this.addressBook).subscribe((result) => this.router.navigate(["Home"]));
