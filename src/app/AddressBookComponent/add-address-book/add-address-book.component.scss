@@ -1,0 +1,139 @@
+html body {
+    margin: 0;
+    height: 100%;
+}
+* {
+    box-sizing: border-box;
+}
+form{
+    padding: 44px 60px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px grey;
+    border: 1px solid white;
+    opacity: 1;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.form-header{
+    font: normal normal bold 20px/25px Montserrat;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0px;
+    display: flex;
+    padding: 44px 60px;
+    margin-top: 10px;
+    background: dodgerblue;
+    width:700px;
+    height: 100px;
+    margin:0px auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    color: #fafafa;
+}
+.form-header h1{
+    text-shadow: 1px 3px 3px gray;
+    letter-spacing: 1px;
+    font-size: 23px;
+}
+form{
+    font-family: "Roboto", sans-serif;
+    width:700px;
+    margin:0px auto;
+    background: #ffffff;
+}
+.cancel-button{
+    padding-top: 13px;
+    padding-left: 240px;
+    margin-left: 0px;
+}
+.h5{
+    line-height: 1;
+    letter-spacing: 2px;
+}
+.input{
+    top: 370px;
+    left: 554px;
+    width: 590px;
+    height: 50px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #BDBDBD;
+    border-radius: 8px;
+    opacity: 1;
+    font: normal normal 16px Roboto;
+}
+.address{
+    width: 590px;
+    height: 100px;
+    padding-bottom: 40px;
+}
+.cityStateZip{
+    display: flex;
+    flex-direction: row;
+}
+#select{
+    width: 150px;
+    height: 50px;
+}
+.zip{
+    width: 150px;
+}
+select {
+    padding: 8px;
+    border-radius: 8px;
+    font: normal normal 16px Roboto;
+    resize: vertical;
+    border: 1px solid;
+    letter-spacing: 0px;
+    color: #8f98a1;
+    background-color: transparent;
+}
+.cityStateSelect{
+    padding-right: 70px;
+}
+error-output{
+    font-size: 17px;
+    font-style: italic;
+    color: red;
+}
+.button-parent {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 60px;
+} 
+button {
+    padding: 7px 7px;
+    background: transparent;
+    border: none;
+    font-weight: 480;
+    width: 140px;
+    opacity: 1;
+    border: 1px solid #707070;
+    letter-spacing: 3px;
+    cursor: pointer;
+} 
+.button{
+    border: 1px solid #707070;
+    margin-right: 30px;
+    border-radius: 5px;
+    font-size: medium;
+    background: #e2e2e2;
+}
+.add-button{
+    background: dodgerblue;
+}
+.button-add{
+    padding-left: 250px;
+}
+.button-reset{
+    padding-right: 40px;
+}
+.error-output{
+    color: red;
+    font-style: italic;
+}
+.cancel-button{
+    cursor: pointer;
+}

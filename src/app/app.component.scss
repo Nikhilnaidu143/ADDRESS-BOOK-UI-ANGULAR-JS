@@ -1,0 +1,39 @@
+html{
+    background: #F7F7F7;
+}
+body{
+    margin: 0;
+    height: 100%;
+}
+.header{
+    padding: 15px 0;
+    background-color: #FFFFFF;
+}   
+.header-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid skyblue;
+}
+.logo-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 0px solid skyblue;
+    width: 80%;
+    cursor: pointer;
+}
+.add-text{
+    font: normal normal bold 20px/25px Montserrat;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0px;
+    color: dodgerblue;
+    text-transform: capitalize;
+}
+.add-book{
+    color: #42515f;
+}
+*{
+    box-sizing: border-box;
+}
